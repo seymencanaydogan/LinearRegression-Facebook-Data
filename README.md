@@ -1,2 +1,78 @@
-# LinearRegression-Facebook-Data
-Regresyon analizi değişkenler arasındaki ilişkiyi araştırmak ve modellemek için kullanılan istatistiksel bir tekniktir. Regresyonun uygulamaları çok sayıdadır ve mühendislik, fizik ve kimya bilimleri, ekonomi, yönetim, yaşam ve biyolojik bilimler ve sosyal bilimler dahil olmak üzere hemen hemen her alanda görülür. Regresyon analizi, veri madenciliğinde yaygın olarak kullanılır ve veri bilimi ve analitiğinin temel bir aracıdır. Bir dizi probleme geniş çapta uygulanabilirliği nedeniyle regresyon analizi en yaygın kullanılan istatistiksel teknik olabilir.Doğrusal regresyon, tahminlerde bulunmak amacıyla verileri analiz etmeye yönelik bir modelleme tekniğidir. Basit olarak doğrusal regresyonda, bir yanıt değişkenini (𝑦) tahmin etmek için iki değişkenli bir model oluşturulur. açıklayıcı değişken (𝑥)1. Çoklu doğrusal regresyonda model aşağıdakileri içerecek şekilde genişletilir: birden fazla açıklayıcı değişken (x1,x2,....,xp) çok değişkenli bir model oluşturur. yi =β0 +xi1β1 +···+xipβp +ei Sosyal medya platformları (Facebook, Instagram vb.), günümüzde işletmeler için müşterilerle etkileşim kurmanın ve kitleleriyle bağlantı kurmanın kritik bir yolu haline gelmiştir. Bu nedenle, işletmeler performanslarını değerlendirmek için önemli fırsatlar bulmaktadır. “Facebook içerik etkileşimini” tahmin etmeye yönelik bir model geliştirdik. Bu model, işletmelerin pazarlama stratejilerini iyileştirmelerine ve kitlelerinin isteklerine daha iyi yanıt vermelerine yardımcı olabilir. Proje kapsamında, Facebook'un sunduğu veriler kullanılarak içerik etkileşimini tahmin etmek amacıyla bir Lineer Regresyon modeli oluşturuldu. Bu model, sayfa beğenisi, paylaşım türü, paylaşım zamanı gibi çeşitli özellikleri kullanarak içerik etkileşimlerini öngörmeyi hedeflemektedir. İşletmelere yönelik bu araştırma, pazarlama stratejilerini optimize etmek ve kitlenin taleplerine daha etkili bir şekilde yanıt vermek için değerli bir araç sunabilir. Bu proje, işletmelerin sosyal medya performanslarını anlamalarına ve optimize etmelerine yardımcı olan önemli bir analitik araç sunmaktadır.
+# Linear Regression with Facebook Data
+
+This project demonstrates how to build and evaluate a **Linear Regression** model using Facebook-related data. The main goal is to analyze the relationship between social media engagement metrics and selected variables through data analysis and machine learning techniques.
+
+## 📌 Project Objective
+
+* Perform exploratory data analysis (EDA) on Facebook data
+* Build a linear regression model from scratch
+* Analyze linear relationships between variables
+* Evaluate the performance of the model
+
+## 📂 Project Structure
+
+* `project.ipynb`
+
+  * Loading the dataset
+  * Data cleaning and preprocessing
+  * Data visualization
+  * Building the linear regression model
+  * Prediction and evaluation steps
+
+## 🧠 Methods Used
+
+* Linear Regression
+* Exploratory Data Analysis (EDA)
+* Data Visualization
+
+## 🛠 Technologies and Libraries
+
+* Python
+* NumPy
+* Pandas
+* Matplotlib / Seaborn
+* Scikit-learn
+
+## 📊 Workflow
+
+1. Load the dataset
+2. Clean and preprocess the data
+3. Define dependent and independent variables
+4. Split data into training and test sets
+5. Train the linear regression model
+6. Make predictions
+7. Evaluate model performance
+
+## 📈 Evaluation Metrics
+
+* Mean Squared Error (MSE)
+* R² Score
+
+## 🚀 How to Run
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/seymencanaydogan/LinearRegression-Facebook-Data
+   ```
+2. Navigate to the project directory:
+
+   ```bash
+   cd LinearRegression-Facebook-Data
+   ```
+3. Install required libraries:
+
+   ```bash
+   pip install numpy pandas matplotlib seaborn scikit-learn
+   ```
+4. Launch Jupyter Notebook and open `project.ipynb`.
+
+## 📌 Notes
+
+* This project is intended for educational purposes.
+* The dataset represents sample Facebook engagement data.
+
+## 👤 Author
+
+* **Seymen Can Aydoğan**
+
